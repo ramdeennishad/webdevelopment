@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element selector */
+        div{
+            background-color: yellow;
+        }
+        /* Class selector */
+        .red{
+            background-color: red;
+        }
+        /* id Selector */
+        #green{
+            background-color: green;
+        }
+        /* Child Selector */
+        div>p{
+            color: blue;
+            background-color: brown;
+        }
+        /* Descendent selector */
+        /* div p{
+            color: aqua;
+            background-color: blueviolet;
+        } */
+        /* Universal selector */
+        *{
+            margin: 0;
+            padding: 0%;
+        }
+        /* psuedo selector */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        p:first-child{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>i am first</p>
+        <p>i am second</p>
+    </main>
+    <div class="red">
+        this is a div 
+    </div>
+    <div id="green">
+        this is second div
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi atque assumenda quis dignissimos illum vero placeat ea explicabo quidem temporibus.</p>
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.facebook3.com">Go to facebook</a>
+</body>
+</html>
