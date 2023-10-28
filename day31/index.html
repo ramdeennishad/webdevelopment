@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS media query</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        .box{
+            width: 344px;
+            height: 344px;
+            background-color: aqua;
+            padding: 3px;
+            margin: 3px;
+        }
+        .boxes{
+            display: flex;
+        }
+        /* landscape portrait */
+    @media screen and (orientation: portrait) {
+        body{
+            border: 2px solid purple;
+        }
+        
+    }
+
+        /* l phone 455px tablet 450 to 750px and 1080 px */
+/* min and max use */
+        @media only screen and (max-width:445px){
+            body{
+                background-color: blue;
+            }
+            .boxes{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, perferendis?</div>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>
