@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>More CSS Selector</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+        /* .box::first-line{
+            color:blue
+        } */
+        /* .boxes *{
+            color: blue;
+            border: 2px solid black
+            ;
+        }
+        p, a, .box,[data-color="primary"]{
+            padding-top: 45px;
+        } */
+        /* .box:nth-child(odd){
+            background-color: green;
+        }
+        .box:nth-last-child(2){
+            background-color: red;
+        } */
+        .boxes::before{
+            content: "aryan is learning web development";
+            color: blue;
+        }
+        .boxes::after{
+            content: "aryan is learning web development....";
+            color:red;
+        }
+        ::selection{
+            color: aqua;
+            background-color: black;
+        }
+        .box::first-letter{
+            color: blueviolet;
+            font-size: 44px;
+        }
+        input::placeholder{
+          color: rgb(124, 124, 134);  
+          font-size: 12px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="boxes">
+        <div data-color="primary" class="box">Hey I am a box 1</div>
+        <div class="box">Hey I am a box 2</div>
+        <div class="box">Hey I am a box 3</div>
+        <input type="text" placeholder="Type your name here">
+    </div>
 </body>
 </html>
