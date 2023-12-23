@@ -1,7 +1,8 @@
-alert("Hello World");
-console.log("hey i am aryan");
-console.log("hey i am aryan1");
-console.log("hey i am aryan2");
+
+alert("Hello World")
+console.log("hey i am aryan")
+console.log("hey i am aryan1")
+console.log("hey i am aryan2")
 
 var a=prompt("Enter your number")
 var isTrue=confirm("Are you sure want to leave this page and blastyour computer")
