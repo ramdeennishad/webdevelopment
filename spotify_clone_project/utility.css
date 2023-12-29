@@ -1,0 +1,78 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 17px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+
+/* Scrollbar Styles for WebKit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a; /* Background color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Border radius of the handle */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar handle on hover */
+  }
+  
+  /* Scrollbar Styles for Firefox */
+  * {
+    scrollbar-width: thin; /* Width of the scrollbar */
+  }
+  
+  *::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar for Firefox */
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #1a1a1a; /* Background color of the track for Firefox */
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #333; /* Color of the scrollbar handle for Firefox */
+    border-radius: 5px; /* Border radius of the handle for Firefox */
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar handle on hover for Firefox */
+  }
+  
