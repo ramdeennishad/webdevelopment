@@ -2,10 +2,12 @@ const express = require("express");
 const app = express();
 const port = 3000;
 const blog = require('./routes/blog')
+const shop = require('./routes/shop')
 
 
 app.use(express.static("public"));
 app.use('/blog', blog)
+app.use('/shop', shop)
 
 app
   .get("/", (req, res) => {
